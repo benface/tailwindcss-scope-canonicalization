@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@custom-variant in-blue {
+  @scope ([data-theme='blue']) to ([data-theme]) {
+    @slot;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "repro": "tailwindcss canonicalize --css ./input.css \"[@scope_(.card)]:flex\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.5",
+    "tailwindcss": "4.3.5"
+  }
+}
